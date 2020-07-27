@@ -4,16 +4,18 @@ function change() {
 }
 
 //Gets "name" from test.json and changes id=test to that name
+
+//Gets "name" from test.json and changes id=test to that name
 var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         var myObj = JSON.parse(this.responseText);
-        document.getElementById("test").innerHTML = myObj.name;
+        document.getElementById("test").innerHTML = myObj[1].name;
     }
 };
 
 function test() {
-    xmlhttp.open("GET", "test.json", true);
+    xmlhttp.open("GET", "SchoolsTest.json", true);
     xmlhttp.send();
 }
 
