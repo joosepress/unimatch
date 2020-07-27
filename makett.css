@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    background-color:#f1f1f1;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+}
+
+topbox {
+	display:block;
+	border-radius:0%;
+	border: 3px none red;
+	padding:2.4%;
+    background-color: #ffffff;
+    text-align: center;
+}
+infobox {
+	display:block;
+	border-radius:0%;
+	border: 3px none blue;
+	padding:2.4%;
+	text-align:center;
+}
+emptyfillerbox {
+	display:block;
+	border-radius:4%;
+	border: 3px none green;
+	padding:1%;
+}
+searchbox{
+	display:block;
+	border-radius:0%;
+	border: 3px none yellow;
+	padding:1%;
+    background-color: #f5f8ff;
+}
+
+infobox info{
+	font-size:170%;
+    color:#373d4d;
+}    
+
+topbox alignleft {
+text-align: left;
+}
+
+Logo {
+	font-size:400%;
+	margin: 5%;
+}
+Logo a {
+	text-decoration:none;
+	color: #41a4b2;
+    background-color:#ffffff;
+}
+sloganline {
+	border-bottom: 3px solid #707778 ;
+	width:10%;
+	float:center;
+	margin-top:2%;
+    font-family: "Times New Roman", Times, serif;
+}
+infobox slogan{
+	font-size:300%;
+	color:#373d4d;
+}
+
+fastnavlr{
+	width:40%;
+	display:block;
+	border-radius:4%;
+	border: 3px none purple;
+	margin-left:30%;
+	margin-right:30%;
+    text-decoration:none;
+}
+fastnav {
+	display:block;
+	border-radius:4%;
+	border: 3px none green;
+	padding-top:3%;
+	padding-bottom:3%;
+	min-width:20%;
+	text-align:center;
+	font-size:340%;
+	margin-left:2.5%;
+	margin-right:2%;
+	background-color:#ffffff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-decoration:none;
+	color:#04024f;
+}
+smallline {
+	border-bottom: 3px solid #707778 ;
+	width:100%;
+	float:left;
+	margin-top:2%;
+}
