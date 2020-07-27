@@ -1,0 +1,15 @@
+div.nupp {
+    position: relative;
+    margin: auto;
+    top: 600px;
+    width: 50%;
+  }
+
+  .background {   
+    background-color: lightyellow;
+
+  }
+
+.kusimus {
+    border: red;
+}
