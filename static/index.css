@@ -1,15 +1,14 @@
 div.nupp {
-    position: relative;
-    margin: auto;
-    top: 600px;
-    width: 50%;
-  }
+  position: relative;
+  margin: auto;
+  top: 600px;
+  width: 50%;
+}
 
-  .background {   
-    background-color: lightyellow;
-
-  }
+body {
+  background-color: lightyellow;
+}
 
 .kusimus {
-    border: red;
+  border: red;
 }

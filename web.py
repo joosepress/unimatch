@@ -8,4 +8,4 @@ def profile():
 
 @app.route('/kusimustik/')
 def kusimustik():
-	return 'Vasta'
+	return render_template("index.html")
