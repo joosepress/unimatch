@@ -18,12 +18,22 @@ body, html {
 }
 
 
-.nupp {
+.vasaknupp {
   flex-direction: column;
 
   background-color: lightblue;
  
   padding: 10px;
+  padding-right: 40px;
+}
+
+.paremnupp {
+  flex-direction: column;
+
+  background-color: lightblue;
+ 
+  padding: 10px;
+  padding-left: 40px;
 }
 
 .vasakup { /* vasak ulemine checkbox nupp*/
@@ -38,9 +48,9 @@ body, html {
 
 .paremup { /* parem ulemine checkbox nupp*/
   border-radius: 0px 5px 0px 0px;
-  background-color: lightblue;
+ 
 
-  padding: 10px;
+  
 }
 .paremdown { /* parem alumine checkbox nupp*/
   border-radius: 0px 0px 5px 0px;
