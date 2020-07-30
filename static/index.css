@@ -65,12 +65,13 @@ h1 {
 
 Logo {
   
-  position: sticky;
+  position: fixed;
 	font-size:400%;
 	margin: 5%;
 }
+
 Logo a {
-  position: sticky;
+  position: fixed;
   top: 5px;
 	text-decoration:none;
 	color: #41a4b2;
