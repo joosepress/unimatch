@@ -33,7 +33,7 @@ body, html {
   background-color: lightblue;
  
   padding: 10px;
-  padding-left: 100px;
+  padding-left: 4q0px;
 }
 
 .vasakup { /* vasak ulemine checkbox nupp*/
@@ -61,4 +61,17 @@ h1 {
   position: relative;
   top: 370px;
   text-align: center;
+}
+
+Logo {
+  
+  position: sticky;
+	font-size:400%;
+	margin: 5%;
+}
+Logo a {
+  position: sticky;
+	text-decoration:none;
+	color: #41a4b2;
+    background-color:#ffffff;
 }
