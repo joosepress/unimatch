@@ -1,8 +1,7 @@
 div.nupp {
-  position: relative;
+  position: absolute;
   margin: auto;
-  top: 600px;
-  width: 50%;
+  top: 60px;
 }
 
 .background {
