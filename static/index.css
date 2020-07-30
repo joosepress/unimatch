@@ -4,11 +4,7 @@ body, html {
    width: 100%;
   }
 
-.nupp {
-  display: flex;
-  top: 50%;
-  justify-content: center;
-}
+
 .background {
   background-color: yellow;
 }
@@ -16,4 +12,36 @@ body, html {
 .kusimus {
   border: red;
 }
+.test {
+  height: 100%;
 
+}
+
+
+.nupp {
+  flex-direction: column;
+
+  background-color: lightblue;
+ 
+  padding: 10px;
+}
+
+.vasakup { /* vasak ulemine checkbox nupp*/
+  border-radius: 5px 0px 0px 0px;
+  background-color: lightblue;
+
+  padding: 10px;
+}
+.vasakdown { /* vasak alumine checkbox nupp*/
+  border-radius: 0px 0px 0px 5px;
+}
+
+.paremup { /* parem ulemine checkbox nupp*/
+  border-radius: 0px 5px 0px 0px;
+  background-color: lightblue;
+
+  padding: 10px;
+}
+.paremdown { /* parem alumine checkbox nupp*/
+  border-radius: 0px 0px 5px 0px;
+}
