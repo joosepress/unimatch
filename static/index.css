@@ -71,6 +71,7 @@ Logo {
 }
 Logo a {
   position: sticky;
+  top: 5px;
 	text-decoration:none;
 	color: #41a4b2;
     background-color:#ffffff;
