@@ -78,7 +78,7 @@ university_list = {
             if ((window.location.search.includes(uni.location) || !window.location.search.includes("maa_")) && ((!window.location.search.includes("suund_")) || ((window.location.search.includes(uni.suund)) || (uni.suund.includes("mõlemad"))))) { //Big Big Big Big if or and or... statement (bad practice, i know but i ran out of time)
                 console.log(window.location.search) //test logs
                 console.log(uni.location) //test logs
-                var para = document.createElement("p"); //makes <p>
+                var para = document.createElement("h3"); //makes <h2>
                 var node = document.createTextNode(uni.name + ", " + uni.location); //content
                 para.appendChild(node); //appends them together
                 var element = document.getElementById("test1");
