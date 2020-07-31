@@ -8,18 +8,19 @@
     </head>
 
     <body class="background">
+        <form onsubmit="return submit()" >
         <Logo><a href="http://127.0.0.1:5000/">UniMatch</a></Logo>
         <h1>Millisel erialal/valdkonnas soovid omandada kõrgharidust?</h1>
             <div class="d-flex justify-content-center align-items-center test" style:border="red">
                 <div class="nupud">
                     <div class="btn-group-toggle-lg paremnupp ulemine" data-toggle="buttons">
                         <label class="btn btn-secondary active">
-                        <input type="checkbox" unchecked autocomplete="off"> Reaalainetes
+                        <input type="checkbox" unchecked autocomplete="off" name="suund_Reaal"> Reaalainetes
                         </label>
                     </div>
                     <div class="btn-group-toggle-lg paremnupp" data-toggle="buttons">
                         <label class="btn btn-secondary active">
-                        <input type="checkbox" unchecked autocomplete="off"> Humanitaarainetes
+                        <input type="checkbox" unchecked autocomplete="off" name="suund_Humanitaar"> Humanitaarainetes
                         </label>
                     </div>
                     <div class="btn-group-toggle-lg paremnupp alumine" data-toggle="buttons">
@@ -35,7 +36,7 @@
                 <div class="nupud">
                     <div class="btn-group-toggle-lg vasaknupp vasakup" data-toggle="buttons">
                         <label class="btn btn-secondary active">
-                        <input type="checkbox" unchecked autocomplete="off"> Eesti
+                        <input type="checkbox" unchecked autocomplete="off" name="maa_Eesti"> Eesti
                         </label>
                     </div>
                     <div class="btn-group-toggle-lg vasaknupp" data-toggle="buttons">
@@ -52,7 +53,7 @@
                 <div class="nupud">
                     <div class="btn-group-toggle-lg paremnupp paremup" data-toggle="buttons">
                         <label class="btn btn-secondary active">
-                        <input type="checkbox" unchecked autocomplete="off"> Inglismaa
+                        <input type="checkbox" unchecked autocomplete="off" name="maa_Inglismaa"> Inglismaa
                         </label>
                     </div>
                     <div class="btn-group-toggle-lg paremnupp" data-toggle="buttons">
@@ -218,7 +219,15 @@
                     </div>
                 </div> 
             </div>
-
+        <input type="submit" value="Submit">
+        </form>
+        <div id="test1">
+        </div>
+        <script src="../static/filter.js">
+        
+        </script>
+        
+        </div>
         <script src="https://code.jquery.com/jquery-3.2.1.slim .min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

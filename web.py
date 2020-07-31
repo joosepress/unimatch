@@ -9,3 +9,7 @@ def profile():
 @app.route('/kusimustik/')
 def kusimustik():
 	return render_template("index.html")
+
+@app.route('/results/')
+def results():
+	return render_template("tulemused.html")
