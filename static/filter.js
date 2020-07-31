@@ -7,25 +7,30 @@ university_list = {
                     "name": "Tartu ülikool",
                     "location": "Eesti",
                     "suund": "mõlemad",
+                    "link": "https://www.ut.ee/et"
             },
                 {
                     "name": "Taltech",
                     "location": "Eesti",
                     "suund": "Reaal",
+                    "link": "https://www.taltech.ee/"
             },
                 {   "name": "University of Oxford",
                     "location": "Inglismaa",
                     "suund": "mõlemad",
+                    "link": "https://www.ox.ac.uk/"
             },
                 {
                     "name": "University of Cambridge",
                     "location": "Inglismaa",
                     "suund": "mõlemad",
+                    "link": "https://www.cam.ac.uk/"
             },
                 {
                     "name": "University of Navarra",
                     "location": "Hispaania",
                     "suund": "mõlemad",
+                    
             },
                 {
                     "name": "UCL",
@@ -82,6 +87,7 @@ university_list = {
                 console.log(uni.location) //test logs
                 var para = document.createElement("h3"); //makes <h2>
                 var node = document.createTextNode(uni.name + ", " + uni.location); //content
+                node.href = uni.link;
                 para.appendChild(node); //appends them together
                 var element = document.getElementById("test1");
                 element.appendChild(para);
