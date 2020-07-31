@@ -1,3 +1,5 @@
+let boolean_flag = false
+
 university_list = {
     "universities":
         [
@@ -72,10 +74,10 @@ university_list = {
 //const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present']
     //const result = words.filter(word => word.length > 6);
     //document.getElementById("test").innerHTML = result;  
-
-
+//function filterunis() {
+//    if (boolan_flag) {
         university_list.universities.forEach((uni) => {
-            if ((window.location.search.includes(uni.location) || !window.location.search.includes("maa_")) && ((!window.location.search.includes("suund_")) || ((window.location.search.includes(uni.suund)) || (uni.suund.includes("mõlemad"))))) { //Big Big Big Big if or and or... statement (bad practice, i know but i ran out of time)
+            if ((window.location.search.includes(uni.location)) && ((!window.location.search.includes("suund_")) || ((window.location.search.includes(uni.suund)) || (uni.suund.includes("mõlemad"))))) { //Big Big Big Big if or and or... statement (bad practice, i know but i ran out of time)
                 console.log(window.location.search) //test logs
                 console.log(uni.location) //test logs
                 var para = document.createElement("h3"); //makes <h2>
@@ -85,3 +87,5 @@ university_list = {
                 element.appendChild(para);
             }
         });
+//    }
+//}
