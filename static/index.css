@@ -76,3 +76,15 @@ Logo a {
 	text-decoration:none;
 	color: #41a4b2;
 }
+
+.vahe {
+  margin-bottom:10%;
+}
+
+.ulemine {
+  border-radius: 5px 5px 0px 0px;
+}
+
+.alumine {
+  border-radius: 0px 0px 5px 5px;
+}
